@@ -1,4 +1,4 @@
-namespace lab1
+namespace Task4
 {
     public partial class Form1 : Form
     {
@@ -6,6 +6,7 @@ namespace lab1
         {
             InitializeComponent();
         }
+
 
         public int[] ProceduralSort(int[] numbers)
         {
@@ -15,9 +16,9 @@ namespace lab1
 
         private void btnSort_Click(object sender, EventArgs e)
         {
-            int[] numbers = { 1, 2, 3, 4, 5 };
-            int[] sortedNumbers = ProceduralSort(numbers);
-            listBoxResults.DataSource = sortedNumbers;
+            int[] numbers = {4,5,3,1,2};
+            int[] sortedNumebers = ProceduralSort(numbers);
+            listBoxResults.DataSource = sortedNumebers;
         }
     }
 }
