@@ -24,8 +24,11 @@ namespace Task5Descend
                     {
                         if (numArray[index] < numArray[index + 1])
                         {
-                            numSwap(ref numArray[index], ref numArray[index + 1]);
-                            swap = true;
+                            int temp = numArray[index];
+                            numArray[index] = numArray[index + 1];
+                            numArray[(index + 1)] = temp;
+                      
+                        swap = true;
                         }
                     }
                     if (swap == false)
