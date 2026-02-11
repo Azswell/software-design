@@ -1,3 +1,5 @@
+using System.Reflection;
+
 namespace lab4
 {
 	public partial class Form1 : Form
@@ -6,5 +8,15 @@ namespace lab4
 		{
 			InitializeComponent();
 		}
-	}
+
+      
+
+
+       
+
+
+        
+
+        
+    }
 }
